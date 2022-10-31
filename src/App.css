@@ -32,7 +32,66 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.signup-box {
+  border-radius: 24px;
+  background-color: #F3F2F0;
+  display: flex;
+}
+
+.container {
+  padding: 12em;
+}
+
+.align-item {
+  align-items: center;
+  margin-top: 10em;
+}
+
+
+.h2 {
+  font-size: 3.4em;
+  text-align: left;
+  margin-left: 69px;
+}
+
+.signup-button {
+  background-color: #3525E6;
+  height: 3em;
+  width: 10em;
+  text-align: center;
+  padding-top: 21px;
+  border-radius: 1px 19px 19px 2px;
+  color: #FFFFFF;
+}
+
+.input {
+  height: 67px;
+  width: 30em;
+  border-radius: 21px 0px 0px 20px;
+  border: none;
+}
+
+.signup-input-box {
+  display: flex;
+  margin-left: 70px;
+}
+
+.p-text {
+  font-size: 23px;
+  text-align: left;
+  margin-left: 72px;
+  width: 25em;
+}
+
+::placeholder {
+  font-size: 20px;
+  color: grey;
+  padding: 5px;
+  padding-left: 30px !important;
 }
