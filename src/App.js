@@ -1,12 +1,12 @@
 import './App.css';
+import Input from './component/input';
+import Image from './component/Signup-image';
 function App() {
   return (
     <div className="App">
       <div className="container">
         <div className="signup-box">
-          <div className="left-img">
-            <img height={800} width={700} src={window.location.origin + '/signup2.png'} />
-          </div>
+          <Image />
           <div className='align-item'>
             <h2 className='h2'>
               Business news delivered
@@ -19,12 +19,7 @@ function App() {
                 weekly.
               </p>
             </span>
-            <div className='signup-input-box'>
-              <input className='input' type={"text"} placeholder="Your Email" />
-              <div className='signup-button'>
-                Subscribe
-              </div>
-            </div>
+            <Input />
           </div>
         </div>
       </div>
